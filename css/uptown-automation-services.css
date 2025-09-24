@@ -62,4 +62,14 @@ p {
   }
 }
 
+@media screen and (max-width: 479px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 1.5rem;
+  }
+}
+
 
