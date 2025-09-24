@@ -8,15 +8,15 @@
 body {
   background-color: var(--black);
   color: #333;
-  font-family: Montserrat, sans-serif;
-  font-size: 1rem;
+  font-family: Lexend, sans-serif;
+  font-size: 1.25rem;
   line-height: 1.7;
 }
 
 p {
   color: var(--white);
   text-align: center;
-  width: 38.5rem;
+  width: 48rem;
   max-width: 90%;
   margin-bottom: 3rem;
 }
@@ -39,11 +39,12 @@ p {
 .button {
   background-color: var(--api-blue);
   text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   width: 20rem;
   max-width: 90%;
   padding: 1rem 1.5rem;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.75rem;
   transition: background-color .35s;
 }
 
