@@ -52,10 +52,6 @@ p {
   background-color: var(--api-blue-dark);
 }
 
-.paragraph {
-  max-width: 90%;
-}
-
 @media screen and (max-width: 991px) {
   p, .logo {
     margin-bottom: 2rem;
