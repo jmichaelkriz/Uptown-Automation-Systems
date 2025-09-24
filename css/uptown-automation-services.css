@@ -39,6 +39,7 @@ p {
 .button {
   background-color: var(--api-blue);
   text-align: center;
+  width: 20rem;
   max-width: 90%;
   padding: 1rem 1.5rem;
   font-size: 1.5rem;
