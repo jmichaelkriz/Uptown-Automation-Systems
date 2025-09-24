@@ -16,9 +16,9 @@ body {
 p {
   color: var(--white);
   text-align: center;
-  width: 50rem;
+  width: 38.5rem;
   max-width: 90%;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .wrapper--page {
@@ -33,7 +33,7 @@ p {
 .logo {
   width: 20rem;
   max-width: 90%;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .button {
