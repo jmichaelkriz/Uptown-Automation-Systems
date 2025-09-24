@@ -1,0 +1,63 @@
+:root {
+  --black: black;
+  --white: white;
+  --api-blue: #4cb4e7;
+  --api-blue-dark: #1c7ab5;
+}
+
+body {
+  background-color: var(--black);
+  color: #333;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+p {
+  color: var(--white);
+  text-align: center;
+  width: 50rem;
+  max-width: 90%;
+  margin-bottom: 4rem;
+}
+
+.wrapper--page {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+}
+
+.logo {
+  width: 20rem;
+  max-width: 90%;
+  margin-bottom: 4rem;
+}
+
+.button {
+  background-color: var(--api-blue);
+  text-align: center;
+  max-width: 90%;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: background-color .35s;
+}
+
+.button:hover {
+  background-color: var(--api-blue-dark);
+}
+
+.paragraph {
+  max-width: 90%;
+}
+
+@media screen and (max-width: 991px) {
+  p, .logo {
+    margin-bottom: 2rem;
+  }
+}
+
+
