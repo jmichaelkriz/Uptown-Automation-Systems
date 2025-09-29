@@ -52,6 +52,12 @@ p {
   background-color: var(--api-blue-dark);
 }
 
+.noise {
+  z-index: -1;
+  position: absolute;
+  inset: 0%;
+}
+
 @media screen and (max-width: 991px) {
   p, .logo {
     margin-bottom: 2rem;
